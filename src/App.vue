@@ -1,31 +1,10 @@
 <template>
   <div>
     <vue-qr
-      text="123456789012345"
-      :components="{
-        cornerAlignment: {
-          scale: 0.5,
-          protectors: true
-        }
-      }"
-    ></vue-qr>
-    <vue-qr
-      text="123456789012345"
-      :components="{
-        cornerAlignment: {
-          scale: 1,
-          protectors: true
-        }
-      }"
-    ></vue-qr>
-    <vue-qr
       text="test"
       colorDark="#28D905"
       colorLight="#EB0303"
       backgroundColor="#EB0303"
-      :margin="0"
-      :bindElement="true"
-      :callback="test"
     ></vue-qr>
     <vue-qr
       text="hello world"
@@ -96,7 +75,6 @@
       :gifBgSrc="gifBgSrc1"
       :size="300"
       :dotScale="0.4"
-      :logoSrc="src2"
     ></vue-qr>
     <vue-qr
       text="test test test test test test "
